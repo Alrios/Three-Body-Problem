@@ -28,21 +28,6 @@ class Body:
         posY = self.r_CoM*math.sin(w*time)
         return posX, posY
 
-class Vector:
-
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-     
-    def norm(self, vector):
-        x2,y2 = vector.x,vector.y
-        return np.sqrt( (self.x-x2)**2 + (self.y-y2)**2 )  
-    
-    def unitVector(self, vector):
-        _norm = self.norm(vector)
-        _x = (self.x - vector.x) / _norm
-        _y = (self.y - vector.y) / _norm
-        return Vector(_x,_y)
         
 
 
