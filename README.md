@@ -1,3 +1,7 @@
+---
+typora-root-url: ./
+---
+
 # Motion of a Satellite using the Three Body Problem 
 
 This small simulation consists in predicting the motion of a Satellite, which is influenced by the gravity of the Moon and Earth. The programming language used is Python and the libraries used are Pandas and Scipy.
@@ -60,7 +64,7 @@ Inserting this equation in code, is needed to separate the vectors in the compon
 
 ### Results
 
-![result](C:\Users\Alrios\Documents\GitHub\Three Body Problem\result.png)
+![result](..\Three Body Problem\result.png)
 
 
 
