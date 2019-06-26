@@ -1,5 +1,3 @@
-typora-root-url: ./
-
 # Motion of a Satellite using the Three Body Problem 
 
 This small simulation consists in predicting the motion of a Satellite, which is influenced by the gravity of the Moon and Earth. The programming language used is Python and the libraries used are Pandas and Scipy.
@@ -62,7 +60,13 @@ Inserting this equation in code, is needed to separate the vectors in the compon
 
 ### Results
 
+Two initials conditions were tested. The first set of initials conditions were that the Satellite found himself 6800000 meters from the Earth and it had a initial velocity of ~7655 m/s. In the first plot the motion of the Satellite is smoothly and doesn't seem to be out of orbit. That is because the initial velocity is smaller than the escape velocity of the Earth, which is 11186 m/s. This velocity is the necessary velocity that an object needs to escape the gravity force coming from the Earth. If the satellite has a velocity equal or greater than the escape velocity, it will lost his course and orbit.
+
+The next plot was made to prove this, the initial position was still the same, but the velocity was set to the value of the escape velocity. In this case the Satellite couldn't follow an orbit and lost trajectory.
+
 ![result](/result.png)
 
+### Summary
 
+With this small simulation was shown that at the moment to calculate trajectory of any object (not only outer space, but also here) is vital to choose the right conditions. Otherwise there will be unexpected results and in a could be result in a disaster. Therefore the understanding of mathematics and physics are essential  to explain such behavior.
 
