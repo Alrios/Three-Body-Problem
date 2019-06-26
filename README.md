@@ -1,6 +1,4 @@
----
 typora-root-url: ./
----
 
 # Motion of a Satellite using the Three Body Problem 
 
@@ -60,7 +58,7 @@ Let <a href="https://www.codecogs.com/eqnedit.php?latex=\vec{z}_1&space;=&space;
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{align*}&space;\vec{z}_1&space;&=&space;\vec{r}_3&space;\\&space;\vec{z}_2&space;&=\frac{d\vec{z_1}}{dt}&space;=&space;\frac{d\vec{r}_3}{dt}&space;=&space;\vec{v}_3&space;\\&space;\frac{d\vec{z}_2}{dt}&space;&&space;=&space;\frac{d^2\vec{z}_1}{dt^2}&space;=&space;\frac{d^2\vec{r}_3}{dt^2}&space;=&space;-G&space;\frac{m_1}{\left&space;\|&space;\vec{r}_{3}&space;-&space;\vec{r}_{1}&space;\right&space;\|^{3}}(\vec{r}_{3}-\vec{r}_1)&space;-G&space;\frac{m_2}{\left&space;\|&space;\vec{r}_{3}&space;-&space;\vec{r}_{2}&space;\right&space;\|^{3}}(\vec{r}_{3}-\vec{r}_2)&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;\vec{z}_1&space;&=&space;\vec{r}_3&space;\\&space;\vec{z}_2&space;&=\frac{d\vec{z_1}}{dt}&space;=&space;\frac{d\vec{r}_3}{dt}&space;=&space;\vec{v}_3&space;\\&space;\frac{d\vec{z}_2}{dt}&space;&&space;=&space;\frac{d^2\vec{z}_1}{dt^2}&space;=&space;\frac{d^2\vec{r}_3}{dt^2}&space;=&space;-G&space;\frac{m_1}{\left&space;\|&space;\vec{r}_{3}&space;-&space;\vec{r}_{1}&space;\right&space;\|^{3}}(\vec{r}_{3}-\vec{r}_1)&space;-G&space;\frac{m_2}{\left&space;\|&space;\vec{r}_{3}&space;-&space;\vec{r}_{2}&space;\right&space;\|^{3}}(\vec{r}_{3}-\vec{r}_2)&space;\end{align*}" title="\begin{align*} \vec{z}_1 &= \vec{r}_3 \\ \vec{z}_2 &=\frac{d\vec{z_1}}{dt} = \frac{d\vec{r}_3}{dt} = \vec{v}_3 \\ \frac{d\vec{z}_2}{dt} & = \frac{d^2\vec{z}_1}{dt^2} = \frac{d^2\vec{r}_3}{dt^2} = -G \frac{m_1}{\left \| \vec{r}_{3} - \vec{r}_{1} \right \|^{3}}(\vec{r}_{3}-\vec{r}_1) -G \frac{m_2}{\left \| \vec{r}_{3} - \vec{r}_{2} \right \|^{3}}(\vec{r}_{3}-\vec{r}_2) \end{align*}" /></a>
 
-Inserting this equation in code, is needed to separate the vectors in the components <a><img src="https://latex.codecogs.com/svg.latex? x "/></a> and <a><img src="https://latex.codecogs.com/svg.latex? y "/></a>. Before was discussed, that the satellite had an initial position and velocity. The final goal of this program is to test the motion of the satellite with the given initials conditions, and check which conditions are better.
+Inserting this equation in code, is needed to separate the vectors in the components <a><img src="https://latex.codecogs.com/svg.latex?x"/></a> and <a><img src="https://latex.codecogs.com/svg.latex?y"/></a>. Before was discussed, that the satellite had an initial position and velocity. The final goal of this program is to test the motion of the satellite with the given initials conditions, and check which conditions are better.
 
 ### Results
 
