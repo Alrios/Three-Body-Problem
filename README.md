@@ -64,7 +64,7 @@ Inserting this equation in code, is needed to separate the vectors in the compon
 
 ### Results
 
-![result](..\Three Body Problem\result.png)
+![result](/result.png)
 
 
 
